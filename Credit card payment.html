@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="icon" href="images/Netflix logo.png">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="creadit-card.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <a href="index.html"><img class="image" src="images/netflix.png" alt=""></a>
+            <a class="Sign" href="index.html">Sign out</a>
+        </div><hr>
+        <div class="first">
+            <p class="para1">STEP 3 OF 3</p>
+            <h3 class="head">Set up your credit or debit card</h3>
+            <img src="images/VISA@2x.png" alt="" class="image4">
+            <img src="images/MASTERCARD@2x.png" alt="" class="image4">
+            <img src="images/DINERS@2x.png" alt="" class="image4"><br>
+            <form action="netflix.html">
+                <input type="text" class="card form-control mb-3" placeholder="Card Number" required><br>
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" class="expriration form-control mb-3" placeholder="Expriration Date" required>
+                    </div>
+                    <div class="col">
+                        <input type="text" class="cvv form-control mb-3" placeholder="CVV" required>
+                    </div>
+                </div>
+                <input type="text" class="name form-control mb-3" placeholder="First name" required><br>
+                <input type="text" class="last form-control mb-3" placeholder="Last name" required><br>
+                <p>Any payment above ₹ 2000 shall need additional authentication.</p><br>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="agreementCheck" required>
+                    <label class="form-check-label" for="agreementCheck">I agree to the Terms of Use, Privacy Statement, and that I am over 18.</label>
+                </div>
+                <button type="submit" class="btn btn-danger btn-lg btn-block">Start Membership</button>
+            </form>
+            <p class="para2">Sign in is protected by Google reCAPTCHA to ensure you’re not a bot. <a href="#"> Learn more</a></p>
+        </div>
+        <div class="abouta">
+            <div class="about">
+                <b>Questions? Call <u>000-800-919-1694</u></b><br><br>
+                <a href="#" class="FQA">FQA</a>
+                <a href="#" class="Help">Help Centre</a>
+                <a href="#" class="Terms">Terms of use</a>
+                <a href="#" class="privacy">Privacy</a><br>
+                <a href="#" class="Cookie">Cookie Preferences</a>
+                <a href="#" class="corporate">Corporate information</a><br>
+                <select class="form-control mt-3" onchange="window.location.href = this.value;">
+                    <option value="Credit card payment.html">English</option>
+                    <option value="Credit card payment Hindi.html">Hindi</option>
+                </select>
+            </div><br>
+        </div>
+    </div>
+    <br>
+    <!-- Bootstrap JS and dependencies (optional, if needed) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

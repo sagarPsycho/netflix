@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="sign.css">
+    <link rel="icon" href="Netflix logo.png">
+</head>
+<body>
+    <div class="container conts">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <a href="index.html"><img src="images/netflix.png" alt="Netflix Logo" class="img-fluid my-4"></a>
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title text-center">साइन इन करें</h2>
+                        <form action="netflix.html">
+                            <div class="form-group">
+                                <input class="form-control" type="email" placeholder="ईमेल या फ़ोन नंबर" required>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="password" placeholder="पासवर्ड" required>
+                            </div>
+                            <button type="submit" class="btn btn-danger btn-block">साइन इन करें</button>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="rememberMe" checked>
+                                <label class="form-check-label" for="rememberMe">याद रखें</label>
+                            </div>
+                            <div class="text-center">
+                                <a class="text-muted" href="#">आपको मदद चाहिए?</a>
+                            </div>
+                        </form>
+                        <div class="text-center mt-4">
+                            <p>New to Netflix? <a href="index.html">अभी साइन अप करें.</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <p class="text-center"><b>कोई सवाल है? <u> 000-800-919-1694</u> पर कॉल करें</b></p>
+                    <div class="d-flex flex-wrap justify-content-around">
+                        <a href="#" class="text-muted">FQA</a>
+                        <a href="#" class="text-muted">सहायता केंद्र</a>
+                        <a href="#" class="text-muted">उपयोग की शर्तें</a>
+                        <a href="#" class="text-muted">प्रायवेसी</a>
+                        <a href="#" class="text-muted">कुकी प्रेफ़रेंस</a>
+                        <a href="#" class="text-muted">कॉरपोरेट जानकारी</a>
+                    </div>
+                    <div class="text-center mt-3">
+                        <select class="custom-select w-auto" onchange="window.location.href = this.value;">
+                            <option value="Sign hindi.html">हिन्दी</option>
+                            <option value="Netflix sign up.html">English</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

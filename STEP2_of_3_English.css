@@ -1,0 +1,61 @@
+/* STEP2_of_3_Hindi.css */
+
+body {
+    background-color: #141414;
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.85);
+    border: none;
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 40px;
+}
+
+.text-muted {
+    color: #b3b3b3 !important;
+}
+
+.text-muted:hover {
+    color: #f1f1f1 !important;
+    text-decoration: underline;
+}
+
+.btn-danger {
+    background-color: #e50914;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #f6121d;
+}
+
+.custom-select {
+    background-color: #333333;
+    color: white;
+    border: 1px solid #333333;
+    border-radius: 5px;
+}
+
+.custom-select option {
+    background-color: #333333;
+    color: white;
+}

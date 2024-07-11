@@ -1,0 +1,96 @@
+/* Choose a plan english.css */
+
+body {
+    background-color: #141414;
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.navbar-brand img {
+    height: 50px;
+}
+
+.plan-details hr {
+    border-color: #555;
+}
+
+.text-muted {
+    color: #b3b3b3 !important;
+}
+
+.text-muted:hover {
+    color: #f1f1f1 !important;
+    text-decoration: underline;
+}
+
+.btn-danger {
+    background-color: #e50914;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #f6121d;
+}
+
+.custom-select {
+    background-color: #333333;
+    color: white;
+    border: 1px solid #333333;
+    border-radius: 5px;
+}
+
+.custom-select option {
+    background-color: #333333;
+    color: white;
+}
+hr{
+    border: 2px solid white;
+}
+.planes{
+    display: flex;
+    gap: 20px;
+}
+.premiumclass{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.premiumclass:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.premunscolors{
+    background-color: red;
+    padding: 5px;
+    border-radius: 10px;
+}
+.pmargingtop{
+    margin-top: -15px;
+}
+.standedColors{
+    background-color: green;
+    padding: 5px;
+    border-radius: 10px;
+}
+.basiccolors{
+    background-color: blue;
+    padding: 5px;
+    border-radius: 10px;
+}
+.mobilecolors{
+    background-color: pink;
+    padding: 5px;
+    border-radius: 10px;
+}

@@ -1,0 +1,52 @@
+/* sign.css */
+
+body {
+    background-color: #141414;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+}
+.conts{
+    margin-bottom: 120px ;
+}
+.card {
+    background-color: rgba(0, 0, 0, 0.75);
+    border: none;
+    border-radius: 10px;
+}
+
+.card-title {
+    color: white;
+}
+
+.btn-danger {
+    background-color: #e50914;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #f6121d;
+}
+
+.text-muted {
+    color: #b3b3b3 !important;
+}
+
+.text-muted:hover {
+    color: #f1f1f1 !important;
+    text-decoration: underline;
+}
+
+.custom-select {
+    background-color: #333333;
+    color: white;
+    border: 1px solid #333333;
+    border-radius: 5px;
+}
+
+.custom-select option {
+    background-color: #333333;
+    color: white;
+}

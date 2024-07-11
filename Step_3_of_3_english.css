@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image {
+    height: 90px;
+}
+
+.Sign {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.Sign:hover {
+    text-decoration: underline;
+}
+
+.first {
+    font-size: 20px;
+}
+
+.image2 {
+    height: 50px;
+}
+
+.para1 {
+    padding-top: 10px;
+}
+
+.head {
+    padding-top: 20px;
+}
+
+.para3,
+.para4 {
+    margin: 10px 0;
+}
+
+.bold1,
+.bold2 {
+    display: block;
+    margin-top: 20px;
+}
+
+.credit,
+.upi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 500px;
+    border: 2px solid #000;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.image4 {
+    height: 30px;
+    width: 40px;
+}
+
+.abouta {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.about {
+    font-size: 25px;
+}
+
+.FQA,
+.Help,
+.Terms,
+.privacy,
+.Cookie,
+.corporate {
+    color: black;
+    font-size: 15px;
+    margin: 0 10px;
+}
+
+select {
+    margin-top: 20px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+select:hover {
+    background-color: transparent;
+    color: red;
+}
